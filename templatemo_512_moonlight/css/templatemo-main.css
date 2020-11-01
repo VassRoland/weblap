@@ -856,3 +856,18 @@ nav a:hover::before {
 	  	padding: 15px 20px;
 	}
 }
+
+.kep {
+	width: 95%;
+	height: 95%;
+	padding: 25px 60px 70px 130px;
+	
+	
+}
+
+.kapcsszov{
+	color: white;
+	margin-left: 20px;
+	margin-top: 15px;
+	text-transform: inherit
+}
