@@ -435,6 +435,7 @@ nav a:hover::before {
 	min-width: 100%;
 	overflow: hidden;
 	float: right;
+	
 }
 
 .second-content .left-content {
@@ -499,6 +500,7 @@ nav a:hover::before {
 
 .third-content .first-section .right-image {
 	margin-left: 15px;
+	
 }
 
 .third-content .second-section {
@@ -512,6 +514,8 @@ nav a:hover::before {
 
 .third-content .second-section .left-image {
 	margin-right: 15px;
+	height: 80%;
+	width: 80%;
 }
 
 .third-content h2 {
@@ -884,4 +888,23 @@ nav a:hover::before {
 	color: white;
 	
 	
+}
+
+.link{
+	display: inline-block;
+	background-color: black;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.alapal{
+	color: white;
+	text-decoration: underline;
+	font-size: 17px;
 }
