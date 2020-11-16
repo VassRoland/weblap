@@ -914,3 +914,12 @@ nav a:hover::before {
 	width: 25%;
 	float: right;
 }
+
+.gomb{
+	margin-top: -20%;
+	
+}
+
+.gomb2{
+	margin-top: -60%;
+}

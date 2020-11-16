@@ -1,15 +1,54 @@
 <!doctype html>
-<html>
+<html lang="hu">
+
 <head>
 <meta charset="utf-8">
-	<html lang="hu">
 <title>pontozo</title>
-		</head>
+</head>
 <link rel="stylesheet" href="pont.css">
 
 
 <body>
 <h1 class="h1">Pontszám kalkulátor</h1>
+	
+	<section class="tm-content">
+                        <p>Fontos tudni, hogy mindegyik vizsgarészen kötelező a pontok legalább 10 százalékát elérni, különben a vizsga elégtelen. Ez azt jelenti, hogy a gyakorlatin legalább 12, míg a szóbelin 3 pontot mindenképpen el kell érni.</p>
+                        <div class="media my-3 mb-5 tm-service-media tm-service-media-img-l">
+
+<div class="kalkulator">
+ <form>
+	 <p class="bek">Gyakorlati pontok száma:</p> <input class="box" type="text" name="num1" min="12" max="120"><br><br>
+	 <p class="bek">Szóbeli pontok száma:</p> <input class="box" type="text" name="num2" min="3" max="30"><br><br>
+	 <p class="bek">Összesen:</p> <input class="box" type="text" name="sum"><br><br>
+	 <div class="fb-btn"><a  onclick="calcSum()">Összead</a> </div>
+	</form>
+	<br><br>
+ <div class="table">
+	<table style="width:100%">
+    <tr>
+        <th>Pont</th>
+        <th>Osztályzat</th>
+        </tr>
+        <td>120 - 150 pont </td><td>jeles</td></tr>
+        <tr><td>90 - 119 pont </td><td>jó</td></tr>
+        <tr><td>60 - 89 pont </td><td>közepes</td></tr>
+        <tr><td>38 - 59 pont </td><td>elégséges</td></tr>
+        <tr><td>0 - 37 pont </td ><td>elégtelen</td></tr>
+    </tr>
+</table>
+</div>
+<br>
+<div class="fb-btn"><a rel="nofollow" href="file:///C:/Users/Roland/Downloads/weblap-main/weblap-main/VR-weblap/index.html">Vissza a főoldalra</a></div>
 		
+<script>
+    function calcSum() {
+        let num1 = document.getElementsByName("num1")[0].value;
+        let num2 = document.getElementsByName("num2")[0].value;
+        let sum = Number(num1) + Number(num2);
+        document.getElementsByName("sum")[0].value = sum;
+    }
+	</script>
+	
+	
 </body>
 </html>
